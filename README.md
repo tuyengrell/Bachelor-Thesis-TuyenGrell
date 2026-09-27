@@ -6,14 +6,14 @@ Science, University of Osnabrück, 2026).
 
 ## Structure
 
-- `CuedAAT/` – preprocessing and linear mixed model, Cued AAT (H1, H2)
-- `DualPictureTask/` – preprocessing and linear mixed model, Dual Picture Task
-- `SinglePictureTask/` – preprocessing, Single Picture Task (descriptive comparison)
-- `analyses/` – combined model (H3a–H3c) and follow-up analyses
-- `figures/` – thesis figures
-- `diagnostics/` – data checks used during preprocessing
-- `stimulus_map.py` – sequence number → IAPS picture → valence norm
-- `analysis_common.py`, `plot_style.py` – shared helpers and figure style
+- `CuedAAT/` - preprocessing and linear mixed model, Cued AAT (H1, H2)
+- `DualPictureTask/` - preprocessing and linear mixed model, Dual Picture Task
+- `SinglePictureTask/` - preprocessing, Single Picture Task (descriptive comparison)
+- `analyses/` - combined model (H3a-H3c) and follow-up analyses
+- `figures/` - thesis figures
+- `diagnostics/` - data checks used during preprocessing
+- `stimulus_map.py` - sequence number mapped to IAPS picture and valence norm
+- `analysis_common.py`, `plot_style.py` - shared helpers and figure style
 
 ## Run order
 
@@ -29,7 +29,5 @@ Python 3.13 with numpy, pandas, scipy, statsmodels and matplotlib.
 
 ## Data
 
-- Raw data are not included; they belong to a project of the Neurobiopsychology group,
-  University of Osnabrück, and are available on request.
-- IAPS pictures are licensed and not included (Lang, Bradley & Cuthbert, 2008).
-- Without the raw data the scripts cannot be run; they document the analysis.
+- Raw data are not included for data protection reasons
+- IAPS pictures are licensed and not included (Lang et al. 2008).
